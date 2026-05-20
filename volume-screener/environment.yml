@@ -1,0 +1,16 @@
+name: stock-screener-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - streamlit
+  - plotly
+  - yfinance
+  - pytz
+  - pip
+  - pip:
+      - pandas-ta-openbb
+

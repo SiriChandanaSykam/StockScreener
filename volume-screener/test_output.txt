@@ -1,0 +1,52 @@
+Quote API status: 200
+Full quote response keys: ['info', 'metadata', 'securityInfo', 'sddDetails', 'currentMarketType', 'priceInfo', 'industryInfo', 'preOpenMarket']
+
+priceInfo: {
+  "lastPrice": 72.3,
+  "change": -2.5,
+  "pChange": -3.342245989304813,
+  "previousClose": 74.8,
+  "open": 0,
+  "close": 0,
+  "vwap": 0,
+  "stockIndClosePrice": 0,
+  "lowerCP": "59.85",
+  "upperCP": "89.75",
+  "pPriceBand": "20",
+  "basePrice": 74.8,
+  "intraDayHighLow": {
+    "min": 0,
+    "max": 0,
+    "value": 72.3
+  },
+  "weekHighLow": {
+    "min": 62,
+    "minDate": "03-Jul-2025",
+    "max": 105,
+    "maxDate": "21-Jul-2025",
+    "value": 72.3
+  },
+  "iNavValue": null,
+  "checkINAV": false,
+  "tickSize": 0.05,
+  "ieq": ""
+}
+
+metadata: {
+  "series": "SM",
+  "symbol": "AAKAAR",
+  "isin": "INE1GYP01013",
+  "status": "Listed",
+  "listingDate": "27-Jun-2025",
+  "industry": "Personal Care",
+  "lastUpdateTime": "18-Dec-2025 16:00:00",
+  "pdSectorPe": "NA",
+  "pdSymbolPe": "NA",
+  "pdSectorInd": "NIFTY SME EMERGE",
+  "pdSectorIndAll": [
+    "NIFTY SME EMERGE"
+  ]
+}
+
+
+Intraday Chart API status: 404
